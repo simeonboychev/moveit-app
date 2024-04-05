@@ -1,3 +1,11 @@
+# Instructions to be able to interact with the applicaiton
+
+To be able to interact with the applicaiton, make sure you create a Shortcut to chrome.
+	Click right mouse button on your shortcut and click properties
+		In the "Shortcut" tab you will see a field named "Target:", make sure the insert the following text as a value to that field:
+	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession"
+	
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
